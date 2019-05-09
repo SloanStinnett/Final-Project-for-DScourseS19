@@ -6,6 +6,6 @@ after this you should only have to run the code inorder to reproduce the results
 
 The pie chart of win ratios can be found at lines 132 through 152.
 
-The bar chart of average sentiment proportions and the calculation of average length can be foun at lines 212 through 239.
+The bar chart of average sentiment proportions and the calculation of average length can be found at lines 212 through 239.
 
 The results of the classification models, including the confusion matrixs, can be found on lines 324 through 359.
