@@ -1,0 +1,9 @@
+This data set is based on the ---insert proper dataset citation--- however the contents have been altered to allow for easier importing into R.
+Change log, 
+1. all instances of +++$+++ where replaced with @
+explanation: the read.table() function in r require a single symbol delimiter as @ was never used in the conversations of the document it served as a convenient delimiter.
+2. all instances of $ where replaces with "dollars "
+explanation: the $ has signifigance in r code and so needed to be replaced as the symbol is allways close to the location of where the word would be placed in a gramatically correct sentence I do not believe it will do any harm and allows for more thorough sentiment analysis.
+3. O'CONNER was changed to OCONNER
+explanation: the ' symbol indicates strings in R. This meant that any line the contained O'Conner's name was being read incorrectly.luckily no other name, outside those with the conversation portions, used the "O'" convention and so only a single change was needed.
+
